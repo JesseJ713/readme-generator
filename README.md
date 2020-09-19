@@ -1,6 +1,6 @@
 
   ---
-:![GitHub](https://img.shields.io/github/license/JesseJ713/readme-generator?style=plastic):
+![GitHub](https://img.shields.io/github/license/JesseJ713/readme-generator?style=plastic)
 
   # README-Generator
 
