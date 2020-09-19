@@ -1,8 +1,7 @@
 // Start Program
-const axios = require("axios");
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown")
+
 
     // Ask user for Title
         // User Input
