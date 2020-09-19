@@ -15,6 +15,16 @@ function userPrompts() {
     },
     {
       type: "input",
+      name: "githubUsername",
+      message: "Please provide username to Github" 
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "Please provide email for further contact" 
+    },
+    {
+      type: "input",
       name: "title",
       message: "Please provide the title of the application" 
     },
@@ -58,11 +68,6 @@ function userPrompts() {
       type: "input",
       name: "tests",
       message: "Please provide any testing material of the application" 
-    },
-    {
-      type: "input",
-      name: "questions",
-      message: "Please provide any further questions to be include" 
     },
   ]);
 }

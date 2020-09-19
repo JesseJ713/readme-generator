@@ -15,14 +15,12 @@ function generateMarkdown(data) {
   ---
 
   ## Table of Contents
-  1. [Title](https://github.com/JesseJ713/${data.repo}#${data.title})
-  2. [Deployed Website](#${data.url})
-  2. [Installation](https://github.com/JesseJ713/${data.repo}#Installation)
+  1. [Installation](https://github.com/JesseJ713/${data.repo}#Installation)
   2. [Usage](https://github.com/JesseJ713/${data.repo}#Usage)
-  2. [License](https://github.com/JesseJ713/${data.repo}#License)
-  2. [Contributors](https://github.com/JesseJ713/${data.repo}#Contributors)
-  2. [Testing](https://github.com/JesseJ713/${data.repo}#Testing)
-  2. [Further Information](https://github.com/JesseJ713/${data.repo}#Further%20Information)
+  3. [License](https://github.com/JesseJ713/${data.repo}#License)
+  4. [Contributors](https://github.com/JesseJ713/${data.repo}#Contributors)
+  5. [Testing](https://github.com/JesseJ713/${data.repo}#Testing)
+  6. [Further-Information](https://github.com/JesseJ713/${data.repo}#Further-Information)
   ---
 
   ## Installation
@@ -50,8 +48,10 @@ function generateMarkdown(data) {
 
   ---
 
-  ## Further Information
-  ${data.questions}
+  ## Further-Information
+  Github Link - https://github.com/${data.githubUsername}
+  Email - ${data.email}
+  LinkedIn - https://www.linkedin.com/in/jesse-jackson-atx/
 
   ---
 

@@ -1,35 +1,33 @@
 
   ---
-  # README Generator
+  # README-Generator
 
-  www.google.com
+  
 
-  ![README Generator Screenshot](readme-gen.PNG?raw=true "README Generator")
+  ![README-Generator Screenshot](readme-gen.PNG?raw=true "README-Generator")
   ---
 
   ## Description
-  Descript
+  Application that allows users to generate a thorough README template entirely in Node.js
 
   ---
 
   ## Table of Contents
-  1. [Title](https://github.com/JesseJ713/readme-generator#README Generator)
-  2. [Deployed Website](#www.google.com)
-  2. [Installation](https://github.com/JesseJ713/readme-generator#Installation)
+  1. [Installation](https://github.com/JesseJ713/readme-generator#Installation)
   2. [Usage](https://github.com/JesseJ713/readme-generator#Usage)
-  2. [License](https://github.com/JesseJ713/readme-generator#License)
-  2. [Contributors](https://github.com/JesseJ713/readme-generator#Contributors)
-  2. [Testing](https://github.com/JesseJ713/readme-generator#Testing)
-  2. [Further Information](https://github.com/JesseJ713/readme-generator#Further%20Information)
+  3. [License](https://github.com/JesseJ713/readme-generator#License)
+  4. [Contributors](https://github.com/JesseJ713/readme-generator#Contributors)
+  5. [Testing](https://github.com/JesseJ713/readme-generator#Testing)
+  6. [Further-Information](https://github.com/JesseJ713/readme-generator#Further-Information)
   ---
 
   ## Installation
-  install
+  Installation of Node.js and module Inquirer is required
 
   ---
 
   ## Usage
-  usage
+  This application should be used in whenever a new project is developed and a jumpstart to an oustanding README is needed
 
   ---
 
@@ -39,17 +37,19 @@
   ---
 
   ## Contributors
-  jesse
+  Jesse Jackson
 
   ---
 
   ## Testing
-  test
+  Testing throughout creation
 
   ---
 
-  ## Further Information
-  quest
+  ## Further-Information
+  Github Link - https://github.com/JesseJ713
+  Email - jesse.jackson.c@gmail.com
+  LinkedIn - https://www.linkedin.com/in/jesse-jackson-atx/
 
   ---
 
