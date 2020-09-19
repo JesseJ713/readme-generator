@@ -2,6 +2,8 @@
 function generateMarkdown(data) {
   return `
   ---
+  ![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.repo}?style=plastic)
+
   # ${data.title}
 
   ${data.url}
@@ -34,6 +36,7 @@ function generateMarkdown(data) {
   ---
 
   ## License
+  ![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.repo}?style=plastic)
   ${data.license}
 
   ---
@@ -52,7 +55,7 @@ function generateMarkdown(data) {
   Github Link - https://github.com/${data.githubUsername}
 
   Email - ${data.email}
-  
+
   LinkedIn - https://www.linkedin.com/in/jesse-jackson-atx/
 
   ---

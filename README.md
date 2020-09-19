@@ -1,8 +1,8 @@
 
   ---
-  # README-Generator
+:![GitHub](https://img.shields.io/github/license/JesseJ713/readme-generator?style=plastic):
 
-  
+  # README-Generator
 
   ![README-Generator Screenshot](readme-gen.PNG?raw=true "README-Generator")
   ---
