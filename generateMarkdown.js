@@ -48,8 +48,10 @@ function generateMarkdown(data) {
 
   ---
 
-  ## Further Information
-  ${data.questions}
+  ## Further-Information
+  Github Link - https://github.com/${data.githubUsername}
+  Email - ${data.email}
+  LinkedIn - https://www.linkedin.com/in/jesse-jackson-atx/
 
   ---
 

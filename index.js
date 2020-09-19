@@ -15,7 +15,7 @@ function userPrompts() {
     },
     {
       type: "input",
-      name: "github-username",
+      name: "githubUsername",
       message: "Please provide username to Github" 
     },
     {
