@@ -20,7 +20,7 @@ function generateMarkdown(data) {
   3. [License](https://github.com/JesseJ713/${data.repo}#License)
   4. [Contributors](https://github.com/JesseJ713/${data.repo}#Contributors)
   5. [Testing](https://github.com/JesseJ713/${data.repo}#Testing)
-  6. [Further Information](https://github.com/JesseJ713/${data.repo}#Further%20Information)
+  6. [Further-Information](https://github.com/JesseJ713/${data.repo}#Further-Information)
   ---
 
   ## Installation
