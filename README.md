@@ -20,7 +20,7 @@
   2. [License](https://github.com/JesseJ713/readme-generator#License)
   2. [Contributors](https://github.com/JesseJ713/readme-generator#Contributors)
   2. [Testing](https://github.com/JesseJ713/readme-generator#Testing)
-  2. [Further Information](https://github.com/JesseJ713/readme-generator#Further%20Information)
+  2. [Further-Information](https://github.com/JesseJ713/readme-generator#Further%20Information)
   ---
 
   ## Installation
