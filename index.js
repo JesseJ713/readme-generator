@@ -4,6 +4,8 @@ const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require("./generateMarkdown");
 
+const writeFileAsync = util.promisify(fs.writeFile);
+
 function userPrompts() {
   return inquirer.prompt([
     {
@@ -55,7 +57,20 @@ function userPrompts() {
   ]);
 }
 
-userPrompts();
+userPrompts()
+  .then(function(res) {
+    const md = generateMarkdown.generateMarkdown(res);
+
+    return writeFileAsync("README.md", md);
+  })
+  .then(function () {
+    console.log("Successful creation of README");
+  })
+  .catch(function(err) {
+    console.log(err);
+  });
+
+
     // Ask user for Title
         // User Input
 
