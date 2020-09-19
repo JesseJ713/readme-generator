@@ -10,6 +10,11 @@ function userPrompts() {
   return inquirer.prompt([
     {
       type: "input",
+      name: "repo",
+      message: "Please provide the repo (case-sensitive) of the application" 
+    },
+    {
+      type: "input",
       name: "title",
       message: "Please provide the title of the application" 
     },
