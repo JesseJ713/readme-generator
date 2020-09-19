@@ -10,6 +10,11 @@ function userPrompts() {
   return inquirer.prompt([
     {
       type: "input",
+      name: "repo",
+      message: "Please provide the repo (case-sensitive) of the application" 
+    },
+    {
+      type: "input",
       name: "title",
       message: "Please provide the title of the application" 
     },
@@ -20,8 +25,13 @@ function userPrompts() {
     },
     {
       type: "input",
-      name: "tableOfContents",
-      message: "Please provide table of contents" 
+      name: "screenshot",
+      message: "Please provide EXACT name (.file name as well) and path of screenshot img" 
+    },
+    {
+      type: "input",
+      name: "url",
+      message: "Please provide complete URL of deployed project" 
     },
     {
       type: "input",
