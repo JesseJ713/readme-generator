@@ -27,7 +27,7 @@
   ---
 
   ## Usage
-  This application should be used in whenever a new project is developed and a jumpstart to an oustanding README is needed
+  This application should be used in whenever a new project is developed and a jumpstart to an outstanding README is needed
 
   ---
 
