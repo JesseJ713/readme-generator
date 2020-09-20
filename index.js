@@ -1,4 +1,4 @@
-// Start Program
+// Establishing module requirements
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
@@ -6,6 +6,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
+// Prompting user for input
 function userPrompts() {
   return inquirer.prompt([
     {
@@ -72,6 +73,7 @@ function userPrompts() {
   ]);
 }
 
+// Calling function that prompts user for input, then creates README.md with response
 userPrompts()
   .then(function(res) {
     const md = generateMarkdown.generateMarkdown(res);
@@ -84,33 +86,3 @@ userPrompts()
   .catch(function(err) {
     console.log(err);
   });
-
-
-    // Ask user for Title
-        // User Input
-
-    // Ask user for Description
-            // User Input
-
-    // Ask user for Table of Contents
-            // User Input
-
-    // Ask user for Installation
-            // User Input
-
-    // Ask user for Usage
-            // User Input
-
-    // Ask user for License
-            // User Input
-
-    // Ask user for Contributing
-            // User Input
-
-    // Ask user for Tests
-            // User Input
-
-    // Ask user for Questions
-            // User Input
-
-// End Program
