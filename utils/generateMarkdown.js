@@ -63,4 +63,5 @@ function generateMarkdown(data) {
 `;
 }
 
+// Exporting custom module to be utilized within other scopes
 module.exports.generateMarkdown = generateMarkdown;
