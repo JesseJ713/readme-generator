@@ -10,7 +10,7 @@
   ---
 
   ## Description
-    Application that allows users to generate a thorough README template entirely in Node.js
+  Application that allows users to generate a thorough README template entirely in Node.js
 
   ---
 
@@ -24,37 +24,37 @@
   ---
 
   ## Installation
-    Installation of Node.js and module Inquirer is required
+  Installation of Node.js and module Inquirer is required
 
   ---
 
   ## Usage
-    This application should be used in whenever a new project is developed and a jumpstart to an outstanding README is needed
+  This application should be used in whenever a new project is developed and a jumpstart to an outstanding README is needed
 
   ---
 
   ## License
-![GitHub](https://img.shields.io/github/license/JesseJ713/readme-generator?style=plastic)
-MIT License
+  ![GitHub](https://img.shields.io/github/license/JesseJ713/readme-generator?style=plastic)
+  MIT License
 
   ---
 
   ## Contributors
-    Jesse Jackson
+  Jesse Jackson
 
   ---
 
   ## Testing
-    Testing throughout creation
+  Testing throughout creation via branching
 
   ---
 
   ## Further-Information
-    Github Link - https://github.com/JesseJ713
+  Github Link - https://github.com/JesseJ713
 
-    Email - jesse.jackson.c@gmail.com
+  Email - jesse.jackson.c@gmail.com
 
-    LinkedIn - https://www.linkedin.com/in/jesse-jackson-atx/
+  LinkedIn - https://www.linkedin.com/in/jesse-jackson-atx/
 
   ---
 
